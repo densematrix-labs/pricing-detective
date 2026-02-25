@@ -1,0 +1,40 @@
+{
+  "title": "Preis-Detektiv",
+  "tagline": "Versteckte SaaS-Gebühren aufdecken",
+  "subtitle": "Fügen Sie eine Preisseite ein. Erfahren Sie die Wahrheit.",
+  "inputLabel": "Preisseiten-Inhalt einfügen (HTML oder Text)",
+  "inputPlaceholder": "Kopieren Sie die gesamte Preisseite (Strg+A, Strg+C) und fügen Sie sie hier ein...",
+  "toolNameLabel": "Tool-Name (optional)",
+  "toolNamePlaceholder": "z.B. Notion, Slack, Figma",
+  "analyzeButton": "Untersuchen",
+  "analyzing": "Wird untersucht...",
+  "trialRemaining": "{{count}} kostenlose Analysen übrig",
+  "trialExhausted": "Kostenlose Testversion aufgebraucht",
+  "buyTokens": "Analyse-Token kaufen",
+  "score": "Ehrlichkeits-Score",
+  "verdict": "Urteil",
+  "issues": "Gefundene Probleme",
+  "tiers": "Tarif-Analyse",
+  "recommendations": "Empfehlungen",
+  "evidence": "Beweis",
+  "severity": {
+    "low": "Niedrig",
+    "medium": "Mittel",
+    "high": "Hoch",
+    "critical": "Kritisch"
+  },
+  "issueTypes": {
+    "hidden_fee": "Versteckte Gebühr",
+    "fake_free": "Falsch kostenlos",
+    "misleading_price": "Irreführender Preis",
+    "usage_cap": "Nutzungslimit",
+    "feature_gate": "Funktionssperre",
+    "time_limit": "Zeitlimit",
+    "required_addon": "Erforderliches Add-on",
+    "bait_switch": "Lockangebot"
+  },
+  "footer": "Einfügen. Untersuchen. Die Wahrheit kennen.",
+  "noIssues": "Keine wesentlichen Probleme gefunden. Diese Preisgestaltung erscheint transparent.",
+  "error": "Analyse fehlgeschlagen. Bitte erneut versuchen.",
+  "minLength": "Bitte fügen Sie mindestens 50 Zeichen Preisinhalt ein."
+}

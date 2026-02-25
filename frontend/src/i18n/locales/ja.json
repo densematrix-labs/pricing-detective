@@ -1,0 +1,40 @@
+{
+  "title": "価格探偵",
+  "tagline": "隠れたSaaS料金を暴く",
+  "subtitle": "価格ページを貼り付けて、真実を知る。",
+  "inputLabel": "価格ページの内容を貼り付け（HTMLまたはテキスト）",
+  "inputPlaceholder": "価格ページ全体をコピー（Ctrl+A, Ctrl+C）してここに貼り付け...",
+  "toolNameLabel": "ツール名（任意）",
+  "toolNamePlaceholder": "例：Notion, Slack, Figma",
+  "analyzeButton": "調査開始",
+  "analyzing": "調査中...",
+  "trialRemaining": "残り {{count}} 回の無料分析",
+  "trialExhausted": "無料トライアル終了",
+  "buyTokens": "分析トークンを購入",
+  "score": "誠実度スコア",
+  "verdict": "判定",
+  "issues": "発見された問題",
+  "tiers": "プラン分析",
+  "recommendations": "推奨事項",
+  "evidence": "証拠",
+  "severity": {
+    "low": "低",
+    "medium": "中",
+    "high": "高",
+    "critical": "重大"
+  },
+  "issueTypes": {
+    "hidden_fee": "隠れた料金",
+    "fake_free": "偽の無料",
+    "misleading_price": "誤解を招く価格",
+    "usage_cap": "使用制限",
+    "feature_gate": "機能制限",
+    "time_limit": "期間制限",
+    "required_addon": "必須アドオン",
+    "bait_switch": "おとり価格"
+  },
+  "footer": "貼り付ける。調査する。真実を知る。",
+  "noIssues": "重大な問題は検出されませんでした。この価格設定は透明性があります。",
+  "error": "分析に失敗しました。もう一度お試しください。",
+  "minLength": "50文字以上の価格コンテンツを貼り付けてください。"
+}

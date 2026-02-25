@@ -1,0 +1,40 @@
+{
+  "title": "가격 탐정",
+  "tagline": "숨겨진 SaaS 요금 공개",
+  "subtitle": "가격 페이지를 붙여넣으세요. 진실을 알아보세요.",
+  "inputLabel": "가격 페이지 내용 붙여넣기 (HTML 또는 텍스트)",
+  "inputPlaceholder": "전체 가격 페이지를 복사(Ctrl+A, Ctrl+C)하여 여기에 붙여넣으세요...",
+  "toolNameLabel": "도구 이름 (선택사항)",
+  "toolNamePlaceholder": "예: Notion, Slack, Figma",
+  "analyzeButton": "조사하기",
+  "analyzing": "조사 중...",
+  "trialRemaining": "무료 분석 {{count}}회 남음",
+  "trialExhausted": "무료 체험 소진",
+  "buyTokens": "분석 토큰 구매",
+  "score": "정직도 점수",
+  "verdict": "판정",
+  "issues": "발견된 문제",
+  "tiers": "요금제 분석",
+  "recommendations": "권장사항",
+  "evidence": "증거",
+  "severity": {
+    "low": "낮음",
+    "medium": "중간",
+    "high": "높음",
+    "critical": "심각"
+  },
+  "issueTypes": {
+    "hidden_fee": "숨겨진 요금",
+    "fake_free": "가짜 무료",
+    "misleading_price": "오해의 소지가 있는 가격",
+    "usage_cap": "사용량 제한",
+    "feature_gate": "기능 제한",
+    "time_limit": "시간 제한",
+    "required_addon": "필수 추가 기능",
+    "bait_switch": "미끼 가격"
+  },
+  "footer": "붙여넣기. 조사하기. 진실 알기.",
+  "noIssues": "중요한 문제가 감지되지 않았습니다. 이 가격 책정은 투명해 보입니다.",
+  "error": "분석에 실패했습니다. 다시 시도해 주세요.",
+  "minLength": "최소 50자 이상의 가격 콘텐츠를 붙여넣으세요."
+}

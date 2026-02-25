@@ -1,0 +1,40 @@
+{
+  "title": "Detective de Precios",
+  "tagline": "Exponga las tarifas ocultas de SaaS",
+  "subtitle": "Pegue cualquier página de precios. Descubra la verdad.",
+  "inputLabel": "Pegue el contenido de la página de precios (HTML o texto)",
+  "inputPlaceholder": "Copie toda la página de precios (Ctrl+A, Ctrl+C) y péguela aquí...",
+  "toolNameLabel": "Nombre de la herramienta (opcional)",
+  "toolNamePlaceholder": "ej: Notion, Slack, Figma",
+  "analyzeButton": "Investigar",
+  "analyzing": "Investigando...",
+  "trialRemaining": "{{count}} análisis gratuitos restantes",
+  "trialExhausted": "Prueba gratuita agotada",
+  "buyTokens": "Comprar tokens de análisis",
+  "score": "Puntuación de honestidad",
+  "verdict": "Veredicto",
+  "issues": "Problemas encontrados",
+  "tiers": "Análisis de planes",
+  "recommendations": "Recomendaciones",
+  "evidence": "Evidencia",
+  "severity": {
+    "low": "Bajo",
+    "medium": "Medio",
+    "high": "Alto",
+    "critical": "Crítico"
+  },
+  "issueTypes": {
+    "hidden_fee": "Tarifa oculta",
+    "fake_free": "Falso gratuito",
+    "misleading_price": "Precio engañoso",
+    "usage_cap": "Límite de uso",
+    "feature_gate": "Función bloqueada",
+    "time_limit": "Límite de tiempo",
+    "required_addon": "Complemento requerido",
+    "bait_switch": "Precio señuelo"
+  },
+  "footer": "Pegar. Investigar. Conocer la verdad.",
+  "noIssues": "No se detectaron problemas significativos. Este precio parece transparente.",
+  "error": "El análisis falló. Por favor, inténtelo de nuevo.",
+  "minLength": "Por favor, pegue al menos 50 caracteres de contenido de precios."
+}

@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --noir-900: #0a0a0f;
+  --noir-800: #12121a;
+  --noir-700: #1a1a25;
+  --noir-600: #252532;
+  --amber-400: #fbbf24;
+  --amber-500: #f59e0b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--noir-900);
+  color: #e5e7eb;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+/* Noir grain overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--noir-800);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--noir-600);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--amber-500);
+}
+
+/* Typewriter cursor */
+.typewriter::after {
+  content: '█';
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Evidence highlight */
+.evidence-highlight {
+  background: linear-gradient(90deg, rgba(251, 191, 36, 0.3) 0%, rgba(251, 191, 36, 0.1) 100%);
+  border-left: 3px solid var(--amber-400);
+  padding: 0.5rem 1rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875rem;
+}
+
+/* Score gauge */
+.score-gauge {
+  background: conic-gradient(
+    var(--amber-400) 0deg,
+    var(--amber-400) calc(var(--score) * 3.6deg),
+    var(--noir-700) calc(var(--score) * 3.6deg)
+  );
+}
+
+/* Issue severity colors */
+.severity-low { --severity-color: #22c55e; }
+.severity-medium { --severity-color: #f59e0b; }
+.severity-high { --severity-color: #ef4444; }
+.severity-critical { --severity-color: #dc2626; }
+
+/* File stamp effect */
+.file-stamp {
+  position: relative;
+}
+
+.file-stamp::before {
+  content: 'ANALYZED';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-15deg);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;
+  color: rgba(251, 191, 36, 0.1);
+  pointer-events: none;
+  white-space: nowrap;
+}

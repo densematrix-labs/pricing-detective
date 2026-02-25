@@ -1,0 +1,40 @@
+{
+  "title": "Pricing Detective",
+  "tagline": "Expose Hidden SaaS Fees",
+  "subtitle": "Paste any pricing page. Get the truth.",
+  "inputLabel": "Paste pricing page content (HTML or text)",
+  "inputPlaceholder": "Copy the entire pricing page (Ctrl+A, Ctrl+C) and paste here...",
+  "toolNameLabel": "Tool name (optional)",
+  "toolNamePlaceholder": "e.g., Notion, Slack, Figma",
+  "analyzeButton": "Investigate",
+  "analyzing": "Investigating...",
+  "trialRemaining": "{{count}} free analyses remaining",
+  "trialExhausted": "Free trial exhausted",
+  "buyTokens": "Buy Analysis Tokens",
+  "score": "Honesty Score",
+  "verdict": "Verdict",
+  "issues": "Issues Found",
+  "tiers": "Tier Analysis",
+  "recommendations": "Recommendations",
+  "evidence": "Evidence",
+  "severity": {
+    "low": "Low",
+    "medium": "Medium", 
+    "high": "High",
+    "critical": "Critical"
+  },
+  "issueTypes": {
+    "hidden_fee": "Hidden Fee",
+    "fake_free": "Fake Free",
+    "misleading_price": "Misleading Price",
+    "usage_cap": "Usage Cap",
+    "feature_gate": "Feature Gate",
+    "time_limit": "Time Limit",
+    "required_addon": "Required Add-on",
+    "bait_switch": "Bait & Switch"
+  },
+  "footer": "Paste. Investigate. Know the truth.",
+  "noIssues": "No significant issues detected. This pricing appears transparent.",
+  "error": "Analysis failed. Please try again.",
+  "minLength": "Please paste at least 50 characters of pricing content."
+}

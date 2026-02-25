@@ -1,0 +1,40 @@
+{
+  "title": "Détective Tarifs",
+  "tagline": "Révélez les frais SaaS cachés",
+  "subtitle": "Collez une page de tarifs. Découvrez la vérité.",
+  "inputLabel": "Collez le contenu de la page de tarifs (HTML ou texte)",
+  "inputPlaceholder": "Copiez toute la page de tarifs (Ctrl+A, Ctrl+C) et collez ici...",
+  "toolNameLabel": "Nom de l'outil (optionnel)",
+  "toolNamePlaceholder": "ex : Notion, Slack, Figma",
+  "analyzeButton": "Enquêter",
+  "analyzing": "Enquête en cours...",
+  "trialRemaining": "{{count}} analyses gratuites restantes",
+  "trialExhausted": "Essai gratuit épuisé",
+  "buyTokens": "Acheter des jetons d'analyse",
+  "score": "Score d'honnêteté",
+  "verdict": "Verdict",
+  "issues": "Problèmes détectés",
+  "tiers": "Analyse des formules",
+  "recommendations": "Recommandations",
+  "evidence": "Preuve",
+  "severity": {
+    "low": "Faible",
+    "medium": "Moyen",
+    "high": "Élevé",
+    "critical": "Critique"
+  },
+  "issueTypes": {
+    "hidden_fee": "Frais cachés",
+    "fake_free": "Faux gratuit",
+    "misleading_price": "Prix trompeur",
+    "usage_cap": "Limite d'utilisation",
+    "feature_gate": "Fonction verrouillée",
+    "time_limit": "Limite de temps",
+    "required_addon": "Module requis",
+    "bait_switch": "Appât tarifaire"
+  },
+  "footer": "Coller. Enquêter. Connaître la vérité.",
+  "noIssues": "Aucun problème significatif détecté. Cette tarification semble transparente.",
+  "error": "L'analyse a échoué. Veuillez réessayer.",
+  "minLength": "Veuillez coller au moins 50 caractères de contenu tarifaire."
+}

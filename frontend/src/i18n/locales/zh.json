@@ -1,0 +1,40 @@
+{
+  "title": "定价侦探",
+  "tagline": "揭露隐藏的 SaaS 收费",
+  "subtitle": "粘贴任何定价页面，获取真相。",
+  "inputLabel": "粘贴定价页面内容（HTML 或文本）",
+  "inputPlaceholder": "复制整个定价页面（Ctrl+A, Ctrl+C）并粘贴到这里...",
+  "toolNameLabel": "工具名称（可选）",
+  "toolNamePlaceholder": "例如：Notion, Slack, Figma",
+  "analyzeButton": "开始调查",
+  "analyzing": "调查中...",
+  "trialRemaining": "剩余 {{count}} 次免费分析",
+  "trialExhausted": "免费试用已用完",
+  "buyTokens": "购买分析次数",
+  "score": "诚实度评分",
+  "verdict": "结论",
+  "issues": "发现的问题",
+  "tiers": "套餐分析",
+  "recommendations": "建议",
+  "evidence": "证据",
+  "severity": {
+    "low": "低",
+    "medium": "中",
+    "high": "高",
+    "critical": "严重"
+  },
+  "issueTypes": {
+    "hidden_fee": "隐藏收费",
+    "fake_free": "虚假免费",
+    "misleading_price": "误导性定价",
+    "usage_cap": "使用限制",
+    "feature_gate": "功能限制",
+    "time_limit": "时间限制",
+    "required_addon": "必需附加组件",
+    "bait_switch": "诱饵式定价"
+  },
+  "footer": "粘贴。调查。了解真相。",
+  "noIssues": "未发现明显问题。该定价看起来较为透明。",
+  "error": "分析失败，请重试。",
+  "minLength": "请粘贴至少 50 个字符的定价内容。"
+}

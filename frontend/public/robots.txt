@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pricing-detective.demo.densematrix.ai/sitemap.xml
